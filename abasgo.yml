@@ -1,0 +1,13 @@
+backend:
+    exePath: abasgui.exe
+    exeArgs: "-lang E"
+    statusFile: buildStatus.txt
+    logoFile: logo.png
+userspace:
+    enabled: true
+    notifyOnStepsStarted:
+        - 1
+        - 8
+    notifyOnStepsFinished:
+        - 1
+        - 8
